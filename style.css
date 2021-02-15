@@ -4,22 +4,24 @@ body {
 
 .calculator-container {
     display: flex;
-    height: 650px;
+    height: 530px;
     width: 500px;
     margin: auto;
     align-items: center;
     justify-content: center;
     background-color: cornflowerblue;
+    border-radius: 2%;
 }
 
 .interface-container {
     display: flex;
     background-color: gold;
-    height: 640px;
+    height: 520px;
     width: 480px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-radius: 2%;
 }
 
 .display-container {
@@ -30,7 +32,7 @@ body {
 
 .button-container {
     display: flex;
-    height: 400px;
+    height: 300px;
     width: 320px;
     flex-flow: row wrap;
     margin: 0 20px 0 0;
@@ -39,26 +41,45 @@ body {
 .operator-container {
     display: flex;
     width: 60px;
-    height: 400px;
+    height: 320px;
     flex-flow: row wrap;
 }
 
-.button-container > div, .operator-container > div { 
+.button-container > div { 
     background-color: gainsboro;
     border: 1px darkgray solid;
     height: 45px;
     width: 100px;
     border-radius: 2px 0 0 0;
     margin: 0 2px 0 2px;
+    border-radius: 2%;
+}
+
+.operator-container > div { 
+    background-color: gainsboro;
+    border: 1px darkgray solid;
+    height: 70px;
+    width: 50px;
+    margin: 5px 2px 0 2px;
+    border-radius: 2%;
 }
 
 .button-container > div > p, .operator-container > div > p { 
     text-align: center;
     font-family: Wallpoet;
     margin: auto 0;
-    font-size: 28px;
+    font-size: 24px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .button-container > div:hover, .operator-container > div:hover { 
     background-color: darkgray;
 }
+
+.button-container > div:active, .operator-container > div:active { 
+    background-color: gray;
+}
+
