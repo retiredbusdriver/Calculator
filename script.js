@@ -14,9 +14,9 @@ function divide (a,b) {
     return +a / +b;
 }
 
-let userChoice = prompt('Please pick between add, subtract, multiply, or divide');
-let number1 = +prompt('Please enter the first number');
-let number2 = +prompt('Please enter the second number');
+//let userChoice = prompt('Please pick between add, subtract, multiply, or divide');
+//let number1 = +prompt('Please enter the first number');
+//let number2 = +prompt('Please enter the second number');
 
 function operate (str, num1, num2) {
     if (str.toLowerCase() == 'add') {
@@ -35,5 +35,4 @@ function operate (str, num1, num2) {
         return 'Please enter an operator choice correctly';
     }
 }
-
-console.log(operate(userChoice,number1,number2));
+alert(operate(userChoice,number1,number2));
