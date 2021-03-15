@@ -11,6 +11,7 @@ body {
     justify-content: center;
     background-color: #AA888E;
     border-radius: 2%;
+    box-shadow: 3px 1px 3px black;
 }
 
 .interface-container {
@@ -28,6 +29,7 @@ body {
     height: 100px;
     width: 400px;
     background-color: gainsboro;
+    border-radius: 2%;
 }
 
 .button-container {
@@ -50,9 +52,9 @@ body {
     border: 1px darkgray solid;
     height: 45px;
     width: 100px;
-    border-radius: 2px 0 0 0;
     margin: 0 2px 0 2px;
-    border-radius: 2%;
+    border-radius: 2% 0 5% 5%;
+    box-shadow: 2px 1px 1px black;
 }
 
 .operator-container > div { 
@@ -60,13 +62,20 @@ body {
     border: 1px darkgray solid;
     height: 70px;
     width: 50px;
-    margin: 5px 2px 0 2px;
-    border-radius: 2%;
+    margin: 2px 2px 0 2px;
+    border-radius: 2% 0 10% 10%;
+    box-shadow: 2px 1px 1px black;
+}
+
+
+
+#equal-button, #clear-button, #divide-button {
+    border-radius: 2% 0 20% 20%;
 }
 
 .button-container > div > p, .operator-container > div > p { 
     text-align: center;
-    font-family: Wallpoet;
+    font-family: Oswald, Wallpoet;
     margin: auto 0;
     font-size: 24px;
     user-select: none;
