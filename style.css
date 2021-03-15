@@ -1,23 +1,23 @@
 body {
-    background-color: goldenrod;
+    background-color: #6B948D;
 }
 
 .calculator-container {
     display: flex;
-    height: 530px;
-    width: 500px;
+    height: 500px;
+    width: 460px;
     margin: auto;
     align-items: center;
     justify-content: center;
-    background-color: cornflowerblue;
+    background-color: #AA888E;
     border-radius: 2%;
 }
 
 .interface-container {
     display: flex;
-    background-color: gold;
-    height: 520px;
-    width: 480px;
+    background-color: #946B72;
+    height: 480px;
+    width: 440px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
